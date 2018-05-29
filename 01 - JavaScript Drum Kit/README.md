@@ -45,7 +45,7 @@ window.addEventListener('keydown',playAudio);
     keys.forEach(key => key.addEventListener('transitioned',stopTransition));
 <
 ```
-- 监听每一个按键元素的***transitionend***事件
+- 监听每一个按键元素的**transitionend**事件
 
 > #### transform transition animation的区别
 > transform 是实现的是元素的变形（静态）
